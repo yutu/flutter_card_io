@@ -13,7 +13,7 @@ CardIO flutter plugin.
   s.author           = { 'Your Company' => 'hello@world.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.static_framework = true
   s.dependency 'Flutter'
   s.dependency 'CardIO'
   s.ios.deployment_target = '8.0'
